@@ -6,7 +6,7 @@
 #    By: mlancelo <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/23 00:42:45 by mlancelo          #+#    #+#              #
-#    Updated: 2024/10/23 00:44:38 by mlancelo         ###   ########.fr        #
+#    Updated: 2024/10/23 12:13:03 by mlancelo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ OBJ =	$(SRC:.c=.o)
 
 CFLAGS += -Wall -Wextra -Werror -g
 
-NAME =	libft.a
+NAME =	libftprintf.a
 
 all:	$(NAME) $(OBJ)
 
