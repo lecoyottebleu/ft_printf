@@ -6,12 +6,10 @@
 /*   By: mlancelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 02:26:42 by mlancelo          #+#    #+#             */
-/*   Updated: 2024/10/26 19:12:56 by mlancelo         ###   ########.fr       */
+/*   Updated: 2024/10/26 19:19:53 by mlancelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdarg.h>
 #include "ft_printf.h"
 
 int	ft_putchar(int c)

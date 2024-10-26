@@ -6,7 +6,7 @@
 /*   By: mlancelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 02:27:24 by mlancelo          #+#    #+#             */
-/*   Updated: 2024/10/26 19:08:43 by mlancelo         ###   ########.fr       */
+/*   Updated: 2024/10/26 19:20:57 by mlancelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 char	*ft_strchr(const char *s, int c);
 int		ft_printf(const char *(str), ...);
